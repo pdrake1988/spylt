@@ -1,0 +1,26 @@
+main {
+    display: flex;
+    flex-direction: column;
+    background-image: url("../images/pexels-olly-935743.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.text-content {
+    color: brown;
+    font-size: 30px;
+    width: 50%;
+}
+.social-media {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.social-media i {
+    font-size: 50px;
+    margin: 20px;
+}

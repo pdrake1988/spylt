@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    background-color: saddlebrown;
+}
+.shop-image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../images/pexels-nurseryart-373639.jpg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 1000px;
+}
+.shop-image-text {
+    color: brown;
+    font-size: 30px;
+}
+.shop-drinks {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+}
+.shop-drinks div {
+    height: 1000px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    width: 50%;
+}
+.chocolate {
+    background-image: url("../images/pexels-alleksana-6463656.jpg");
+}
+.vanilla {
+    background-image: url("../images/pexels-alejandro-aznar-155337093-28525198.jpg");
+}
+.strawberry {
+    background-image: url("../images/pexels-aida-shukuhi-914628252-20205939.jpg");
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../css/HomePage.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script defer src="../scripts/HomePage.js"></script>
+</head>
+<body>
+<main>
+    <div class="header">
+        <button class="header-menu-button" onclick="openMenu()">
+            <span class="material-icons">
+                menu
+            </span>
+        </button>
+        <div class="header-text">
+            <h1>Golden Brew Coffee</h1>
+        </div>
+    </div>
+    <div id="overlay">
+        <div class="overlay-menu">
+            <div class="overlay-header">
+                <button class="overlay-close-button" onclick="closeMenu()">
+                    <span class="material-icons">
+                        close
+                    </span>
+                </button>
+            </div>
+            <div>
+                <a class="menu-text" href="ShopPage.html">Shop</a>
+            </div>
+            <div>
+                <a class="menu-text" href="AboutPage.html">About Us</a>
+            </div>
+            <div>
+                <a class="menu-text" href="ContactPage.html">Contact Us</a>
+            </div>
+        </div>
+        <div class="overlay-image">
+            <img src="../images/pexels-ngqah83-885021.jpg" alt="coffee-image">
+        </div>
+    </div>
+</main>
+</body>
+</html>
