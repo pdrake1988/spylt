@@ -17,12 +17,12 @@ main {
     align-items: center;
     text-align: center;
     background-color: rgba(39 30 30 / 54%);
+    width: 50%;
 }
 .text-content {
     position: relative;
     color: brown;
     font-size: 30px;
-    width: 50%;
 }
 .social-media {
     display: flex;
