@@ -1,21 +1,32 @@
+body {
+    margin: 0;
+}
 main {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-image: url("../images/pexels-olly-935743.jpg");
     background-size: cover;
+    background-repeat: no-repeat;
     height: 100vh;
-    width: 100%;
+}
+.content {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
+    background-color: rgba(39 30 30 / 54%);
 }
 .text-content {
+    position: relative;
     color: brown;
     font-size: 30px;
     width: 50%;
 }
 .social-media {
     display: flex;
+    position: relative;
     flex-direction: row;
     justify-content: center;
     align-items: center;
