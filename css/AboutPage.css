@@ -10,6 +10,14 @@ main {
     background-repeat: no-repeat;
     height: 100vh;
 }
+.home-link {
+    position: absolute;
+    top: 100px;
+    left: 250px;
+    font-size: 30px;
+    color: brown;
+    text-decoration: none;
+}
 .content {
     display: flex;
     flex-direction: column;

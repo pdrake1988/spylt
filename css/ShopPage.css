@@ -2,6 +2,16 @@ body {
     margin: 0;
     background-color: saddlebrown;
 }
+.home-link {
+    position: absolute;
+    top: 100px;
+    left: 250px;
+    font-size: 30px;
+    background-color: rgba(39 30 30 / 54%);
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
 .shop-image {
     display: flex;
     flex-direction: column;
@@ -14,8 +24,10 @@ body {
     height: 1000px;
 }
 .shop-image-text {
-    color: brown;
+    color: white;
+    background-color: rgba(39 30 30 / 54%);
     font-size: 30px;
+    padding: 10px;
 }
 .shop-drinks {
     display: flex;
